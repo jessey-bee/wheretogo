@@ -1,0 +1,122 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    margin: 0 auto;
+}
+
+.site-header {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 135px;
+    z-index: 9999 !important;
+    background-color: white;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.site-header .site-branding {
+    position: fixed;
+    left: 84px;
+    top: 56px;
+    display: block;
+    width: 167px;
+    height: 23px;
+    background: url(../result-order_files/logo_black.png) no-repeat center;
+    background-size: contain;
+}
+
+.site-navigation {
+    position: fixed;
+    right: 85px;
+    top: 56px;
+    display: block;
+    margin: auto;
+    width: 367px;
+    height: 40px;
+    line-height: normal;
+    text-align: center;
+    opacity: 1;
+}
+
+.main-navigation>ul{
+    margin: auto;
+    padding-left: 0;
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main-navigation>ul>li{
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #222b45
+}
+
+.survey {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 1815px;
+    margin-top: 135px;
+    background-color: #F2F6FF;
+}
+
+
+.site-footer {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 185px;
+    border-top: 1px solid #222;
+    padding-top: 40px;
+    background-color: #222;
+}
+
+.db-col-1 {
+    position: relative;
+    width: 66.6666667%;
+    display: inline-block;
+    min-height: 1px;
+    display: block;
+    overflow: hidden;
+}
+
+.footer-category {
+    float: left;
+    width: 32%;
+}
+
+.footer-category a{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
